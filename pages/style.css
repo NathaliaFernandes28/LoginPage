@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Kanit:wght@100&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.first {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5em 5em 5em 25em;
+
+  width: 300px;
+  height: 400px;
+}
+.firstSection {
+  padding: 10px;
+  border-bottom: 1px solid #ddd9d9;
+  margin-left: 20px;
+}
+.heading {
+  width: 220px;
+  font-size: 25px;
+  font-family: kanit, sans serif;
+  color: blue;
+}
+.subtitle {
+  font-weight: bold;
+  margin-bottom: 15px;
+  font-family: kanit, sans-serif;
+}
+.secondSection {
+  margin: 22px;
+  font-family: kanit, sans-serif;
+}
+label {
+  color: blue;
+  font-family: kanit, sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+}
+.email {
+  width: 200px;
+  height: 38px;
+  border: 1px solid white;
+  box-shadow: 0 7px 4px #ddd9d9;
+  margin-top: 10px;
+  border-radius: 5px;
+  margin-bottom: 14px;
+  font-size: 10px;
+}
+.email:hover {
+  border: 1px solid blue;
+}
+.senha {
+  width: 200px;
+  height: 38px;
+  border: 1px solid white;
+  box-shadow: 0 7px 4px #ddd9d9;
+  margin-top: 5px;
+  border-radius: 5px;
+  font-size: 10px;
+}
+.senha:hover {
+  border: 1px solid blue;
+}
+.submit {
+  margin-top: 25px;
+  width: 200px;
+  height: 40px;
+  color: white;
+  background-color: blue;
+  border: 1px solid white;
+  border-radius: 7px;
+  cursor: pointer;
+  font-family: kanit, sans-serif;
+  font-size: 15px;
+}
+.submit:hover {
+  font-size: 17px;
+}
+span {
+  font-family: kanit, sans-serif;
+  font-weight: bold;
+  font-size: 11px;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+a {
+  text-decoration: none;
+  font-size: 11px;
+  color: blue;
+  font-family: kanit, sans-serif;
+  font-weight: 700;
+}
+a:hover {
+  color: #00a1ff;
+  font-size: 13px;
+}
